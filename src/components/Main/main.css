@@ -1,0 +1,25 @@
+main{
+    height: 92vh;
+    background-color: cadetblue;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 5px; */
+    align-self: start;
+    flex-direction: column;
+}
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+#parent div{
+    width: 200px;
+    border: 1px solid gray;
+    padding: 8px 6px;
+    border-radius: 4px;
+}
+#parent div img{
+    width: 100%;
+}

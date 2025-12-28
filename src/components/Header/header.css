@@ -1,0 +1,11 @@
+header{
+    background-color: beige;
+    margin: 0;
+    padding: 8px 16px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+header h1{
+    margin: 0;
+}
